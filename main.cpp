@@ -40,7 +40,7 @@ int main(int argc, char ** argv) {
 		char *buffer;
 		long filelen;
 
-		string currentFile; 
+		string currentFile;
 		for (int i = 1; i < argc; i++) { // For each file provided as an argument
 			currentFile = argv[i];
 
@@ -85,6 +85,6 @@ int main(int argc, char ** argv) {
 	}
 
 #ifdef _DEBUG
-	system("pause");
+    getchar();
 #endif
 }
